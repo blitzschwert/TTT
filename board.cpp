@@ -1,12 +1,18 @@
 #include "board.h"
 #include <iostream>
 
-void clear_board(char*[5][6] current_board){
-    *current_board = base_board;
+using namespace std;
+
+string blank_board[5] = {{" | | "}, {"-+-+-"}, {" | | "}, {"-+-+-"}, {" | | "}};
+
+void clear_board(string* current_board[5]){
+    printf("check2");
+    for(int i = 0; i < 5; i++)
+        *current_board[i] = blank_board[i];
 }
 
-void display_board(char[5][6] current_board){
-    for(int i; i < 5; i++){
-        std::cout << current_board[i] << std::endl;
+void display_board(string current_board[5]){
+    for(int i = 0; i < 5; i++){
+        cout << current_board[i] << endl;
     }
 }
