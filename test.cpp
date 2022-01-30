@@ -1,22 +1,22 @@
 #include <iostream>
 #include "board.h"
+#include "game.h"
 
 using namespace std;
 
 int main(){
-    string* board[5];
-    string* test_board = new string[5];
-    test_board[0] = {"x|o|x"};
-    test_board[1] = {"-----"};
-    test_board[2] = {"o|x|o"};
-    test_board[3] = {"-----"};
-    test_board[4] = {"x|o|x"};
-    
+    char* test_board = new char[9];
 
-    display_board(test_board);
     clear_board(test_board);
-    place_move(test_board, 5, 'x');
     display_board(test_board);
+    turn('x', test_board);
+    for(int i = 0; i < 4; i++){
+        display_board(test_board);
+        turn('o', test_board);
+        display_board(test_board);
+        turn('x', test_board);
+        has_won('x', test_board);
+    }
 
     delete [] test_board;
     return 0;
