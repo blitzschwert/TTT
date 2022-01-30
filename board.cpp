@@ -18,6 +18,7 @@ void display_board(string current_board[5]){
     }
 }
 
+// Places the current player's move
 void place_move(string* current_board, int loc, char player){
     switch(loc){
         case 1:
