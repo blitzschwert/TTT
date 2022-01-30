@@ -29,9 +29,10 @@ int valid_move(char* current_board, int loc){
 // Checks if a player has won
 // int has_won(char player, char* cb)
 int has_won(char player, char* cb){
-    if((cb[0] == cb[1] && cb[1] == cb[2]) || (cb[3] == cb[4] && cb[4] == cb[5]) || (cb[6] == cb[7] && cb[7] == cb[8]) ||
-       (cb[0] == cb[3] && cb[3] == cb[6]) || (cb[1] == cb[4] && cb[4] == cb[7]) || (cb[2] == cb[5] && cb[5] == cb[8]) ||
-       (cb[0] == cb[4] && cb[4] == cb[7]) || (cb[2] == cb[4] && cb[4] == cb[6])){
+    if((cb[0] == cb[1] && cb[1] == cb[2] && cb[2] == player) || (cb[3] == cb[4] && cb[4] == cb[5] && cb[5] == player) ||
+       (cb[6] == cb[7] && cb[7] == cb[8] && cb[8] == player) || (cb[0] == cb[3] && cb[3] == cb[6] && cb[6] == player) || 
+       (cb[1] == cb[4] && cb[4] == cb[7] && cb[7] == player) || (cb[2] == cb[5] && cb[5] == cb[8] && cb[8] == player) ||
+       (cb[0] == cb[4] && cb[4] == cb[8] && cb[8] == player) || (cb[2] == cb[4] && cb[4] == cb[6] && cb[6] == player)){
         cout << "Congrats! Player " << player << " has won!" << endl;
         return 1;
     }
