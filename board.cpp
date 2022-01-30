@@ -3,15 +3,15 @@
 
 using namespace std;
 
-string blank_board[5] = {{" | | "}, {"-+-+-"}, {" | | "}, {"-+-+-"}, {" | | "}};
-
 // Clears the board and resets it to empty
+// void clear_board(char* current_board)
 void clear_board(char* current_board){
     for(int i = 0; i < 9; i++)
         current_board[i] = ' ';
 }
 
 // Displays the board in the terminal
+// void display_board(char* current_board)
 void display_board(char* current_board){
     cout << current_board[6] << '|' << current_board[7] << '|' << current_board[8] << endl;
     cout << "-+-+-" << endl;
@@ -21,4 +21,5 @@ void display_board(char* current_board){
 }
 
 // Places the current player's move
+// void place_move(char* current_board, int loc, char player)
 void place_move(char* current_board, int loc, char player){current_board[loc-1] = player;}
