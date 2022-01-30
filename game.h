@@ -4,7 +4,8 @@
 
 using namespace std;
 
-void turn(char, string*);
-void win_check(string*);
+void turn(char, char*);
+int valid_move(char*, int);
+int has_won(char, char*);
 
 #endif
