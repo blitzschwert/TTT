@@ -5,7 +5,8 @@
 
 using namespace std;
 
-void clear_board(string*[5]);
-void display_board(string[5]);
+void clear_board(string*);
+void display_board(string*);
+void place_move(string*, int, char);
 
 #endif
