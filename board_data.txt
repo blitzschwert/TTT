@@ -1,0 +1,96 @@
+         |  Start of game
+1
+xo       |  If o picks 2 after start
+7
+xo o  x  |
+9
+xo o  xox|
+5
+xo oo x x|
+8
+x  o     |  If o picks 4 after start
+3
+xoxo     |
+9
+xoxoo   x|
+6
+xoxo o  x|
+5
+x o      |  If o picks 3 after start
+7
+x oo  x  |
+9
+x ooo x x|
+8
+x oo  xox|
+5
+x     o  |  If o picks 7 after start
+3
+xox   o  |
+9
+xox o o  |
+6
+xox  oo  |
+5
+x      o |  If o picks 8 after start
+7
+x  o  xo |
+3
+xoxo  xo |
+5
+x xoo xo |
+2
+x    o   |  If o picks 6 after start
+3
+xox  o   |
+7
+xoxo ox  |
+5
+xox oox  |
+4
+x       o|  If o picks 9 after start
+3
+xox     o|
+7
+xoxo  x o|
+5
+xox o x o|
+4
+x   o    |  If o picks 5 after start
+9
+x o o   x|      If o picks 3
+7
+x ooo x x|          If o picks 4
+8
+x o o xox|          If o picks 8
+4
+x   o o x|      If o picks 7
+3
+xox o o x|          If o picks 2
+6
+x x ooo x|          If o picks 6
+2
+x   o  ox|      If o picks 8
+2
+xxo o  ox|
+7
+xoxoo xox|
+6
+x   oo  x|      If o picks 6
+4
+x  xoo ox|
+3
+xoxxoo ox|
+7
+x  oo   x|      If o picks 4
+6
+x ooox  x|
+7
+x oooxxox|
+2
+xo  o   x|      If o picks 2
+8
+xo  o oxx|
+3
+xox oooxx|
+4
