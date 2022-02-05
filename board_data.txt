@@ -28,9 +28,9 @@ x     o  |  If o picks 7 after start
 3
 xox   o  |
 9
-xox o o  |
+xox o o x|
 6
-xox  oo  |
+xox  oo x|
 5
 x      o |  If o picks 8 after start
 7
@@ -78,9 +78,9 @@ xoxoo xox|
 6
 x   oo  x|      If o picks 6
 4
-x  xoo ox|
+x  xooo x|
 3
-xoxxoo ox|
+xoxxooo x|
 7
 x  oo   x|      If o picks 4
 6
